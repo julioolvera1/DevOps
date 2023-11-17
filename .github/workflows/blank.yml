@@ -35,5 +35,11 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
+      # Run a single command
       - name: List current directory contents
         run: ls -al
+
+      # Runs a script using the runners shell
+      - name: Run a bash script
+        run: script.sh
+      
