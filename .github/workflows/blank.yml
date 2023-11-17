@@ -41,5 +41,5 @@ jobs:
 
       # Runs a script using the runners shell
       - name: Run a bash script
-        run: script.sh
+        run: sh script.sh
       
